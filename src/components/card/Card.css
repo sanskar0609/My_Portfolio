@@ -1,0 +1,51 @@
+.card{
+    width: 90%;
+    max-width: 350px;
+    height: 150px;
+    background-color: rgba(39, 32, 32, 0.638);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 10px black, 2px 2px 20px black;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    flex-shrink: 0;
+    padding: 10px;
+    
+}
+.card:hover{
+    box-shadow: 2px 2px 10px aqua, 2px 2px 20px aqua;
+}
+
+.hovercard img{
+    height: 80%;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.hovercard{
+   width: 100%;
+   height: 100%;
+    background:linear-gradient(to top ,rgba(62, 150, 227, 0.396), rgba(0, 0, 0, 0.593));
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(7px);
+}
+
+.card:hover .hovercard{
+    transform: translateY(0%);
+}
+
+.card h1{
+    background:linear-gradient(to right,rgb(66, 173, 205), white);
+    background-clip: text;
+    color: transparent;
+}
