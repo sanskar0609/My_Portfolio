@@ -1,7 +1,7 @@
 import React from 'react'
 import "./About.css"
 import Card from '../card/Card'
-import mern from "../../assets/images/mern.png"
+import mern from "../../assets/images/vb.png"
 import java from '../../assets/images/java.png'
 import dsa from "../../assets/images/dsa.png"
 import { useGSAP } from '@gsap/react'

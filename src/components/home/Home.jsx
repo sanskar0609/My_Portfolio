@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import man from "../../assets/images/man.png"
+import { Link } from "react-scroll";
 import TypingEffect from "react-typing-effect"
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -49,7 +50,9 @@ function Home() {
                         cursor='|'
                         />
                 </div>
-                <button>HIRE ME</button>
+                <Link to="contact" spy={true} smooth={true} duration={500}>
+  <button>HIRE ME</button>
+</Link>
               </div>
         </div>
         <div className="right">
