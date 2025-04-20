@@ -5,6 +5,8 @@ import { Link } from "react-scroll";
 import TypingEffect from "react-typing-effect"
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import cv from "../../assets/images/Sanskar_Sontakke_CV.pdf"
+import Model from '../3dmodel/My3d';
 function Home() {
 
   useGSAP(()=>{
@@ -43,7 +45,7 @@ function Home() {
                 </div>
                 <div className="line3">
                         <TypingEffect
-                        text={["WEB DEVELOPER", "SOFTWARE DEVELOPER","UI/UX DESIGNER"]}
+                        text={["WEB DEVELOPER", "SOFTWARE DEVELOPER","UI/UX DESIGNER","Automation Tester"]}
                         speed={50}
                         eraseSpeed={100}
                         eraseDelay={500}
@@ -53,10 +55,16 @@ function Home() {
                 <Link to="contact" spy={true} smooth={true} duration={500}>
   <button>HIRE ME</button>
 </Link>
+        <a href={cv} download>
+            <button>Resume</button>
+        </a>
+
               </div>
+              
         </div>
         <div className="right">
-          <img src={man} alt=''/>
+          {/* <img src={man} alt=''/> */}
+          <Model/>
         </div>
    </div>
   )

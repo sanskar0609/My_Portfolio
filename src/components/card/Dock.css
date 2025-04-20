@@ -1,0 +1,60 @@
+.dock-card-container {
+    width: 300px;
+    height: 180px;
+    background-color: rgba(39, 32, 32, 0.638);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 10px black, 2px 2px 20px black;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.dock-title {
+    background: linear-gradient(to right, rgb(66, 173, 205), white);
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+}
+
+.dock-docker-image-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-top: 8px;
+}
+
+.dock-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dock-card-container a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #0073b1;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin: 5px 0;
+    width: 80%;
+    text-align: center;
+}
+
+.dock-card-container a:hover {
+    background-color: #005f91;
+}
+
+.dock-card-container:hover {
+    box-shadow: 2px 2px 10px aqua, 2px 2px 20px aqua;
+}

@@ -4,9 +4,11 @@ import Card from '../card/Card'
 import mern from "../../assets/images/vb.png"
 import java from '../../assets/images/java.png'
 import dsa from "../../assets/images/dsa.png"
+import selenium from "../../assets/images/selenium.jpeg"
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
+import Projects from '../projects/Projects'
 gsap.registerPlugin(ScrollTrigger)
 
 function About() {
@@ -128,7 +130,7 @@ function About() {
                   <span>Languages</span>: HTML,CSS,JAVASCRIPT,PHP,JAVA,MYSQL,C,C++
                 </li>
                 <li>
-                  <span>Tools</span>:Figma,Canva,VS Code, Github 
+                  <span>Tools</span>:Figma,Canva,VS Code, Github, Postman, Docker, Selenium, Apache Jmeter, Apache Kafka 
                 </li>
                 <li>
                   <span>Fundamental Of Computer Science</span>: O.S,DSA,DBMS,Computer Network
@@ -144,8 +146,11 @@ function About() {
         <Card title="JAVA FULL STACK" image={java}>
         </Card>
         <Card title="DSA" image={dsa}></Card>
+        <Card title="Selenium Tester" image={selenium}></Card>
        </div>
+      
    </div>
+  
   )
 }
 

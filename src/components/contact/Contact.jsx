@@ -4,6 +4,9 @@ import './Contact.css'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
+import My3dModel from '../3dmodel/My3dModels'
+import DockGitCard from '../card/DockGitCard'
+import Dockergithub from '../docker-github/Dockergithub'
 gsap.registerPlugin(ScrollTrigger)
 
 function Contact() {
@@ -27,9 +30,12 @@ function Contact() {
   
   })
   return (
+    <div>
+      <Dockergithub/>
     <div id="contact">
         <div className="leftcontact">
-            <img src={con} alt="" />
+            {/* <img src={con} alt="" /> */}
+            <My3dModel/>
         </div>
         <div className="rightcontact">
             <form action="https://formspree.io/f/xdkovggp" method='POST'>
@@ -39,6 +45,8 @@ function Contact() {
                 <input type="submit" id="btn" value="submit"/> 
             </form>
         </div>
+        
+    </div>
     </div>
   )
 }

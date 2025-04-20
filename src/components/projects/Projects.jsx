@@ -10,6 +10,8 @@ import school from "../../assets/images/school.jpg"
 import ext from "../../assets/images/fontext.jpg"
 import txteditor from "../../assets/images/texteditor.jpg"
 import email from '../../assets/images/email.png'
+import unityHub from '../../assets/images/unityhub.png'
+import jobapp from '../../assets/images/jobapp.png'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
@@ -49,7 +51,8 @@ function Projects() {
     <div id="projects">
         <h1 id="para">1+ YEARS EXPERIENCED IN PROJECTS</h1>
         <div className="slider">
-            <Card title="Ai-Email extension" image={email} url="https://github.com/sanskar0609/AI-Email-Reply/tree/main"></Card>
+        <Card title="Job App Microservice" image={jobapp} url="https://jobmicroservice.netlify.app/"></Card>
+            <Card title="Ai-Email extension" image={email} url="https://drive.google.com/drive/folders/1avbPYIhcCbA7_PNbawDyXlKBU4IfVAY1?usp=drive_link"></Card>
            <Card title="College Predictor" image={clg} url="http://collegepredictor.infinityfreeapp.com/"/>
           
             <Card title="CHATBOT" image={chatbot} url="https://sanskar0609.github.io/chatbot/"></Card>
@@ -60,7 +63,10 @@ function Projects() {
 
             <Card title="Font_detector-Extension" image={ext} url="https://font-detector-extension.netlify.app/"></Card>
             <Card title="TEXT EDITOR" image={txteditor} url="https://github.com/sanskar0609/text-editor"></Card>
+
+            <Card title="UnityHub" image={unityHub} url="http://unityhub.great-site.net/"></Card>
         </div>
+        
     </div>
   )
 }
