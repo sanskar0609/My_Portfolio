@@ -28,7 +28,7 @@ function Nav() {
             <Link to="home" activeClass='active' spy={true} smooth={true} duration={500}><li>Home</li></Link>
             <Link to="about" activeClass='active' spy={true} smooth={true} duration={500}><li>about</li></Link>
             <Link to="projects" activeClass='active' spy={true} smooth={true} duration={500}><li>project</li></Link>
-            <Link to="dokergithub"  activeClass='active' spy={true} smooth={true} duration={500}><li>docker-Github</li></Link>
+            {/* <Link to="dokergithub"  activeClass='active' spy={true} smooth={true} duration={500}><li>docker-Github</li></Link> */}
             <Link to="contact"  activeClass='active' spy={true} smooth={true} duration={500}><li>contact</li></Link>
             
         </ul>
@@ -48,7 +48,7 @@ function Nav() {
             <Link to="home" activeClass='active' spy={true} smooth={true} duration={500}><li>Home</li></Link>
             <Link to="about" activeClass='active' spy={true} smooth={true} duration={500}><li>about</li></Link>
             <Link to="projects" activeClass='active' spy={true} smooth={true} duration={500}><li>project</li></Link>
-            <Link to="dokergithub"  activeClass='active' spy={true} smooth={true} duration={500}><li>docker-Github</li></Link>
+            {/* <Link to="dokergithub"  activeClass='active' spy={true} smooth={true} duration={500}><li>docker-Github</li></Link> */}
             <Link to="contact"  activeClass='active' spy={true} smooth={true} duration={500}><li>contact</li></Link>
             
         </ul>

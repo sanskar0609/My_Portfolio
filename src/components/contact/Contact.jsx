@@ -31,7 +31,7 @@ function Contact() {
   })
   return (
     <div>
-      <Dockergithub/>
+      {/* <Dockergithub/> */}
     <div id="contact">
         <div className="leftcontact">
             {/* <img src={con} alt="" /> */}
