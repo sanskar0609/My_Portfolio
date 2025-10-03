@@ -4,17 +4,16 @@ import { OrbitControls, useGLTF } from "@react-three/drei";
 
 const My3d = () => {
   const { scene } = useGLTF("./man.glb"); // Path to your 3D model
-
-  return <primitive object={scene} scale={2} />;
+  return <primitive object={scene} scale={1.5} />;
 };
 
 const Model = () => {
   return (
     <Canvas>
-      <ambientLight intensity={0.5} />
+      <ambientLight intensity={0.2} />
       <directionalLight position={[5, 5, 5]} />
       <My3d />
-      <OrbitControls />
+      <OrbitControls enableZoom={false} />
     </Canvas>
   );
 };

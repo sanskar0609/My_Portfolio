@@ -14,11 +14,35 @@ import txteditor from "../../assets/images/texteditor.jpg"
 import email from '../../assets/images/email.png' 
 import unityHub from '../../assets/images/unityhub.png' 
 import jobapp from '../../assets/images/jobapp.png'
+import BrowseBoost from '../../assets/images/extension.png'
+import mockmaster from '../../assets/images/mockmaster.png'
 import './AllProject.css'
 
 gsap.registerPlugin(ScrollTrigger);
 
 const projectsData = [
+   {
+    title: "BrowseBoost",
+    imageUrl:BrowseBoost,
+    liveUrl: "https://browseboost.vercel.app/",
+    githubUrl: "https://github.com/sanskar0609/Extensions",
+    // dockerHubUrl: "https://hub.docker.com/repository/docker/sanskar0609/selenium-unityhub"
+  },
+  {
+    title: "MockMaster",
+    imageUrl:mockmaster,
+    liveUrl: "https://mock-master-green.vercel.app/",
+    githubUrl: "https://github.com/sanskar0609/MockMaster",
+    // dockerHubUrl: "https://hub.docker.com/repository/docker/sanskar0609/selenium-unityhub"
+  }, 
+
+  {
+    title: "UnityHub",
+    imageUrl:unityHub,
+    liveUrl: "http://unityhub.great-site.net/",
+    githubUrl: "",
+    dockerHubUrl: "https://hub.docker.com/repository/docker/sanskar0609/selenium-unityhub"
+  },
   {
     title: "Job App Microservice",
     imageUrl:jobapp,
@@ -81,13 +105,6 @@ const projectsData = [
     liveUrl: "",
     githubUrl: "https://github.com/sanskar0609/text-editor",
     dockerHubUrl: ""
-  },
-  {
-    title: "UnityHub",
-    imageUrl:unityHub,
-    liveUrl: "http://unityhub.great-site.net/",
-    githubUrl: "",
-    dockerHubUrl: "https://hub.docker.com/repository/docker/sanskar0609/selenium-unityhub"
   }
 ];
 
