@@ -139,7 +139,7 @@ export default function AllProjects() {
   return (
     <div id="projects" className="flex flex-col items-center gap-10 py-10">
       <h1 className="text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-white">
-        1+ YEARS EXPERIENCED IN PROJECTS
+        3+ YEARS EXPERIENCED IN PROJECTS
       </h1>
       <div className="projects-slider flex gap-6 overflow-x-scroll w-[90%] py-4 px-2 scrollbar-hide">
 
