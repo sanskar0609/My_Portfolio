@@ -33,14 +33,14 @@ const projectsData = [
     imageUrl:mockmaster,
     liveUrl: "https://mock-master-green.vercel.app/",
     githubUrl: "https://github.com/sanskar0609/MockMaster",
-    // dockerHubUrl: "https://hub.docker.com/repository/docker/sanskar0609/selenium-unityhub"
+    dockerHubUrl: "https://hub.docker.com/repository/docker/sanskar0609/mindmap-v1/general"
   }, 
 
   {
     title: "UnityHub",
     imageUrl:unityHub,
     liveUrl: "http://unityhub.great-site.net/",
-    githubUrl: "",
+    githubUrl: "https://github.com/sanskar0609/neighbour-helping-app",
     dockerHubUrl: "https://hub.docker.com/repository/docker/sanskar0609/selenium-unityhub"
   },
   {
