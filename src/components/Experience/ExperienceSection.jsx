@@ -20,7 +20,7 @@ const experiences = [
       {
         title: "Dsa Launchpad",
         image: dsa,
-        link: "dl6.wceacmsc.live",
+        link: "https://dl6.wceacmsc.live",
       },
       {
         title: "Rsc Website",
