@@ -32,16 +32,17 @@ const experiences = [
   {
     role: "Assistant Design & Content Head",
     company: "WCE MLSC",
-    duration: "Oct 2024 – Present",
+    duration: "Oct 2024 – Jun 2025",
     description:
       "Lead content creation and design initiatives, managing team collaborations and publishing updates.",
   },
   {
     role: "Web Development Intern",
-    company: "ABC Technologies",
-    duration: "June 2024 – Aug 2024",
+    company: "Inlight Technologies (On-site)",
+    duration: "June 2023 – Aug 2023",
     description:
-      "Worked on building responsive web applications using React, Tailwind CSS, and REST APIs.",
+      "Applied web development concepts, including HTML, CSS, JavaScript, and PHP, to build dynamic applications. Engineered full-stack projects leveraging frontend and backend technologies, ensuring seamless user experience. Optimized UI/UX using Bootstrap, enhancing design consistency and accessibility for improved engagement.",
+    techStack: ["HTML", "CSS", "JavaScript", "PHP", "Bootstrap", "Git", "GitHub"]
   },
 ];
 
