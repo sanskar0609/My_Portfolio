@@ -11,6 +11,7 @@ import DashBoard from './components/dashboard/DashBoard'
 import Info from './components/heading/Info'
 import ProfileBadges from './components/profile/ProfileBadges'
 import ExperienceSection from './components/Experience/ExperienceSection'
+import Gap from './components/profile/Gap'
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
       <AllProject />
       <Certificates></Certificates>
       <ProfileBadges/>
+      <Gap/>
       <ExperienceSection/>
       {/* <Info/> */}
       {/* <Projects />  */}

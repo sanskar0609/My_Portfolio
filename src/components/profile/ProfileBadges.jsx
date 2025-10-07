@@ -7,10 +7,11 @@ const GitHubStats = () => {
   const hackerrankUsername = "sanskarsontakke1"; // ✅ Replace with your HackerRank username
 
   return (
-    <section
-      id="stats"
-      className="w-full min-h-screen flex flex-col items-center justify-center p-6 text-white"
-    >
+<section
+  id="stats"
+  className="w-full min-h-screen flex flex-col items-center justify-center p-6 text-white pb-24 mb-16"
+>
+
       {/* Title */}
       <h2 className="text-4xl font-bold mb-10 text-center bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-transparent">
         My Developer Profiles 🚀
@@ -68,14 +69,14 @@ const GitHubStats = () => {
           </div>
 
           {/* 🔗 Visit Button */}
-          <a
-            href={`https://www.hackerrank.com/profile/${hackerrankUsername}`}
-            target="_blank"
-            rel="noreferrer"
-            className="mt-4 inline-block px-6 py-2 rounded-full border-2 border-green-400 text-green-400 font-semibold hover:bg-green-400 hover:text-black transition-colors duration-300"
-          >
-            Visit My HackerRank
-          </a>
+         <a
+  href={`https://www.hackerrank.com/profile/${hackerrankUsername}`}
+  target="_blank"
+  rel="noreferrer"
+  className="mt-4 mb-16 inline-block px-6 py-2 rounded-full border-2 border-green-400 text-green-400 font-semibold hover:bg-green-400 hover:text-black transition-colors duration-300"
+>
+  Visit My HackerRank
+</a>
         </div>
       </div>
     </section>

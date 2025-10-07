@@ -50,8 +50,9 @@ const ExperienceWithShowcase = () => {
   return (
    <section
   id="experience"
-  className="w-full flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 py-16 md:py-24 text-white mt-12 md:mt-16"
+  className="w-full flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 py-16 md:py-24 text-white mt-12 md:mt-16 mx-4 sm:mx-0"
 >
+
   {/* Header */}
   <div className="mb-16 text-center px-2 sm:px-0">
     <div className="inline-flex items-center gap-3 mb-6 justify-center">
@@ -72,7 +73,8 @@ const ExperienceWithShowcase = () => {
     {experiences.map((exp, index) => (
       <div key={index} className="relative group">
         {/* Card */}
-        <div className="p-6 sm:p-8 md:p-10 rounded-2xl md:rounded-3xl border border-cyan-500/20 shadow-lg hover:shadow-xl hover:border-cyan-500/40 transition-all duration-500 hover:-translate-y-1">
+        <div className="p-6 sm:p-12 md:p-20 rounded-2xl md:rounded-3xl border border-cyan-500/20 shadow-lg hover:shadow-xl hover:border-cyan-500/40 transition-all duration-500 hover:-translate-y-1 transform scale-90 sm:scale-100">
+
           <div className="px-2 sm:px-4">
             {/* Role and Company */}
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4 md:mb-6">
